@@ -1,0 +1,41 @@
+
+.start-txt{
+
+padding: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
+margin-left: 100px;
+font-size: 70px;
+}
+
+.picture-airplane{
+
+text-align: center;
+
+}
+
+.last-txt{
+
+font-size: 50px;
+padding-top: 20px;
+padding-bottom: 25px;
+margin-right: 50px;
+}
+
+.button{
+
+text-align: center;
+
+
+}
+
+
+.oi{
+
+
+    width: 500px;
+    height: 100px;
+    font-size: 60px;
+    border-radius: 5px;
+
+}

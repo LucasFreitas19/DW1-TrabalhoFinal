@@ -1,0 +1,95 @@
+.first{
+
+    font-size: 40px;
+    padding-left: 60px;
+    font-weight:bold ;
+    
+    }
+    
+    .row-back{
+    
+    background-color: rgb(196, 189, 189);
+    
+    border: 2px solid black;
+    }
+    
+    .txt-l{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 3rem;
+    
+    }
+
+    .form{
+
+
+        margin-left: 6rem;
+        margin-right: 6rem;
+
+    }
+    .form-label{
+
+
+        margin-top: 2rem;
+    }
+
+    .radio{
+
+
+        padding: 12px;
+
+
+    }
+
+   /* .radio-txt{
+
+        font-size: 20px;
+        padding-left: 12px;
+
+
+    }
+
+    .dive-radio{
+
+        margin-top: 63px;
+
+
+
+    }
+
+    .Sexo{
+
+
+        padding-bottom: 30px;
+
+
+    } */
+
+    .alerts{
+
+
+border: 3px solid black;
+
+padding: 4rem;
+margin-left: 110px;
+    width: 1714px;
+
+
+
+    }
+
+    .button{
+
+
+        float: right;
+        padding: 1rem;
+        padding-left: 4rem;
+        padding-right:4rem;
+        margin-top: 3rem;
+        margin-right: 5rem;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+        }

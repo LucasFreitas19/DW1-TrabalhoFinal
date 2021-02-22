@@ -1,0 +1,148 @@
+.first{
+
+    font-size: 40px;
+    padding-left: 60px;
+    font-weight:bold ;
+    
+    }
+    
+    .row-back{
+    
+    background-color: rgb(196, 189, 189);
+    
+    border: 2px solid black;
+    }
+    
+    .txt-l{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 3rem;
+    
+    }
+
+    hr{ 
+  
+        border: 4px solid rgb(0, 0, 0);
+        
+        width: 3px;
+        
+        padding-bottom: 40rem;
+        
+    }
+
+    .assents{
+
+
+        height: 700px;
+
+
+    }
+
+    .hr1{
+
+        margin-left: 100%;
+        
+    }
+
+    .hr2{
+
+        margin-right: 100%;
+    }
+
+    .underassents{
+
+        height: 250px;
+        padding-top: 2rem;
+
+    }
+
+    .buttao-right{
+
+       padding-left: 3rem;     
+
+
+    }
+
+    .buttao-left{
+
+
+        padding-left: 3rem;
+    }
+    
+    .assentos{
+
+        padding: 3rem;
+        border-radius: 8px;
+        background-color: white;
+        font-size: 2rem;
+
+
+
+    }
+
+    .assentos:hover {
+        background-color: #4CAF50; 
+        color: white;
+        box-shadow: 2px 20px 24px 2px black;
+      }
+
+      button:disabled,
+button[disabled]{
+  border: 3px solid #000000;
+  background-color: #fd0505;
+  color: #000000;
+}
+
+.nohover:hover{
+
+
+background-color: red;
+color: black;
+
+
+}
+
+.alerts{
+
+
+    border: 3px solid black;
+    margin-top: 30px;
+    padding: 4rem;
+    margin-left: 110px;
+        width: 1714px;
+    
+    
+    
+        }
+    
+        .button{
+    
+    
+            float: right;
+            padding: 1rem;
+            padding-left: 4rem;
+            padding-right:4rem;
+            margin-top: 3rem;
+            margin-right: 5rem;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            }
+
+            .button:hover{
+
+                background-color: rgb(66, 195, 235);
+                box-shadow: 2px 20px 24px 2px black;
+
+            }
+
+
+            .assentoselecionado{
+
+
+                background-color: green;
+
+            }
