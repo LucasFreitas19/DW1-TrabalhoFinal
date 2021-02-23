@@ -71,7 +71,7 @@
 
 
 border: 3px solid black;
-
+margin-top: 40px;
 padding: 4rem;
 margin-left: 110px;
     width: 1714px;
@@ -92,4 +92,32 @@ margin-left: 110px;
         font-size: 50px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         border-radius: 8px;
+        }
+        .f{
+
+
+           margin-right: 60px;
+    
+    
+        }
+
+        .b{
+
+            padding-right: 30px;
+
+
+        }
+
+        .c{
+
+            margin-right: 30px;
+
+
+
+        }
+        .textoalerta{
+
+            font-size: 40px;
+            text-align: center;
+        
         }

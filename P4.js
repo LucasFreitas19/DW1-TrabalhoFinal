@@ -7,6 +7,15 @@ let assento = assentoss[index];
 
         assentocorreto = ev.target.innerText;
         ev.target.className = ev.target.className +  " assentoselecionado";
+        window.sessionStorage.setItem("assentocorreto", assentocorreto)
 
     });
+}
+
+function nextpage(){
+
+    
+    
+    window.location = "./P5.html";
+
 }

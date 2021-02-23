@@ -35,20 +35,20 @@
         </div>
 
 
-        <form class="row g-3 form">
+        <form   class="row g-3 form"  >
             <div class="col-md-3">
                 <label for="inputEmail4" class="form-label">CPF</label>
                 <input type="number" class="form-control" id="inputCPF">
             </div>
             <div class="col-md-9">
                 <label for="inputPassword4" class="form-label">Nome Completo</label>
-                <input type="text" class="form-control" maxlength="100" minlength="10">
+                <input type="text" class="form-control" id="name" maxlength="100" minlength="10">
             </div>
 
 
             <div class="col-md-10">
                 <label for="inputEmail4" class="form-label">Contato de Emergencia</label>
-                <input maxlength="100" minlength="10" type="text" class="form-control" id="inputCemergencia">
+                <input maxlength="100" minlength="10" type="text" class="form-control" id="emergencia">
             </div>
             <div class="col-md-2">
                 <label class="form-label">Telefone</label>
@@ -66,28 +66,38 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <label class="form-label Sexo">Sexo</label>
+                    
                     <div class="form-check  dive-radio">
-                        <input class="form-check-input radio" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        <label class="form-check-label radio-txt b " for="inlineRadio1">M</label>
+                        <input class="form-check-input radio f" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                             value="option1">
-                        <label class="form-check-label radio-txt " for="inlineRadio1">M</label>
-                        <input class="form-check-input radio" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                       
+                        <input class="form-check-input radio " type="radio" name="inlineRadioOptions" id="inlineRadio2"
                             value="option2">
-                        <label class="form-check-label radio-txt" for="inlineRadio2">F</label>
+                        <label class="form-check-label radio-txt c " for="inlineRadio2">F</label>
                     
                 </div>
             </div>
+           
+            <div class="row">
+
+                <div class="col-12">
+                <button type="submit" onclick="salvar()"> Salvar </button>
             </div>
-
-
-
-
+            </div>
+           
         </form>
+
+
+
+
+        </div>
 
 
         <div class="row">
             <div class="col-md-12 col-sm-6 alerts">
 
-
+                <p class="textoalerta" id="textoalerta"> </p>
 
 
             </div>
@@ -102,7 +112,7 @@
 
             <div class="col-12 ">
 
-                <button class="button"> Continuar -> </button>
+                <button class="button" onclick="nextpage()"> Continuar -> </button>
 
             </div>
         </div>

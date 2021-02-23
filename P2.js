@@ -32,7 +32,7 @@ function nextpage(){
         
     } else { 
 
-        document.getElementById("alert").innerText = "Este codigo não possui nenhum voo";
+        document.getElementById("textoalerta").innerText = "Este codigo não possui nenhum voo";
 
 
 
